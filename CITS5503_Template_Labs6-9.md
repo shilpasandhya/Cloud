@@ -1489,7 +1489,7 @@ def detect_language(text):
     except ClientError as e:
         return f"Error detecting language: {e.response['Error']['Message']}"
 
-# Test function
+#Test function
 def test_language_detection():
     texts = {
         "English": "The French Revolution was a period of social and political upheaval in France and its colonies beginning in 1789 and ending in 1799.",
@@ -1574,7 +1574,7 @@ def analyze_sentiment(text):
     language_code = detect_language(text)
     return detect_sentiment(text, language_code)
 
-# Test function
+#Test function
 def test_sentiment_analysis():
     texts = {
         "English": "The French Revolution was a period of social and political upheaval in France and its colonies beginning in 1789 and ending in 1799.",
@@ -1672,7 +1672,7 @@ def format_entities(entities):
         formatted += f"Text: {entity['Text']}, Type: {entity['Type']}, Score: {entity['Score']:.2f}\n"
     return formatted
 
-# Test function
+#Test function
 def test_entity_detection():
     texts = {
         "English": "The French Revolution was a period of social and political upheaval in France and its colonies beginning in 1789 and ending in 1799.",
@@ -1769,7 +1769,7 @@ def format_key_phrases(key_phrases):
         formatted += f"Text: {phrase['Text']}, Score: {phrase['Score']:.2f}\n"
     return formatted
 
-# Test function
+#Test function
 def test_key_phrase_detection():
     texts = {
         "English": "The French Revolution was a period of social and political upheaval in France and its colonies beginning in 1789 and ending in 1799.",
@@ -1888,7 +1888,7 @@ def format_syntax_tokens(syntax_tokens):
         formatted += f"Text: {token['Text']}, PartOfSpeech: {token['PartOfSpeech']['Tag']}, Score: {token['PartOfSpeech']['Score']:.2f}\n"
     return formatted
 
-# Test function
+#Test function
 def test_syntax_detection():
     texts = {
         "English": "The French Revolution was a period of social and political upheaval in France and its colonies beginning in 1789 and ending in 1799.",
