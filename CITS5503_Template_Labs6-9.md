@@ -770,7 +770,7 @@ aws elbv2 create-target-group \
   <pre><code>Hello, world.</code></pre>
 
   <h4>Screenshot:</h4>
-  <img src="alb-helloworld.png" alt="Hello World from ALB" width="600">
+  <img src="alb-helloworld.png" alt="Hello World from ALB" >
   
   <h3>Cleanup:</h3>
   <p>After verifying the setup, I have deleted the EC2 instance and the ALB to free up resources through aws console.</p>
@@ -928,7 +928,7 @@ aws ec2 describe-instances \
 
   <h3>Result:</h3>
   <p>Fabric and its dependencies are successfully installed:</p>
-  <img src="fabric_installation.png" alt="Fabric installation screenshot" style="width:100%;max-width:600px;"/>
+  <img src="fabric_installation.png" alt="Fabric installation screenshot" />
 
   <h3>2. Configuring SSH for Fabric</h3>
   <p>Create a configuration file at <code>~/.ssh/config</code>:</p>
@@ -957,7 +957,7 @@ Host 24018816-lab7a-vm
   
   
   <h3>Explanation of Fabric Commands:</h3>
-  <img src="output 2.png" alt="Fabric connection output screenshot" style="width:100%;max-width:400px;"/>
+  <img src="output 2.png" alt="Fabric connection output screenshot" />
 
   <h3>Explanation of Flags:</h3>
   <ul>
@@ -1094,7 +1094,7 @@ if __name__ == "__main__":
   <p><strong><a href="http://54.206.149.117/polls/">http://54.206.149.117/polls/</a></strong></p>
 
   <h3>Output Screenshot:</h3>
-  <img src="output_final.png" alt="Django Polls App Output" width="600">
+  <img src="output_final.png" alt="Django Polls App Output">
 </div>
 
 
@@ -1128,7 +1128,7 @@ jupyter notebook
   </ul>
 
   <h3>Result:</h3>
-  <img src="jupyter_loaded.png" alt="Jupyter Notebook Interface" width="600">
+  <img src="jupyter_loaded.png" alt="Jupyter Notebook Interface">
 </div>
 
 
@@ -1450,8 +1450,8 @@ test_numeric.to_csv("test.csv", index=False, header=False)
 
 <div style="text-align: left;">
   <h2>Training Results:</h2>
-  <img src="tuning_completed2.png" alt="Tuning Completed Screenshot" width="600"/>
-  <img src="tuning_output2.png" alt="Training Output in S3" width="600"/>
+  <img src="tuning_completed2.png" alt="Tuning Completed Screenshot" />
+  <img src="tuning_output2.png" alt="Training Output in S3" />
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -2167,7 +2167,7 @@ if __name__ == "__main__":
   <p>The script creates an S3 bucket and uploads four images. It then performs various analyses using AWS Rekognition, including label detection, moderation detection, facial analysis, and text detection on each image.</p>
 
   <h2>Result:</h2>
-  <img src="s3Bucket.png" alt="S3 bucket:image loaded" width="600">
+  <img src="s3Bucket.png" alt="S3 bucket:image loaded">
   <pre><code>
 (myenv) shilpa@shilpa-VirtualBox:~$ python3 awsRekognition.py 
 Bucket 24018816-lab9 created successfully
