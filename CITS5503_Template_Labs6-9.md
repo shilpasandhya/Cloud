@@ -2058,11 +2058,11 @@ import boto3
 import os
 from botocore.exceptions import ClientError
 
-# Initialize boto3 clients
+#Initialize boto3 clients
 s3_client = boto3.client('s3', region_name='ap-southeast-2')
 rekognition_client = boto3.client('rekognition', region_name='ap-southeast-2')
 
-# Define bucket name
+#Define bucket name
 BUCKET_NAME = "24018816-lab9"
 
 def create_bucket(bucket_name, region):
